@@ -14,7 +14,7 @@ python -V or python3 -V. If your not on python version 3 you can download here: 
  
 
 
-The idea of this program is to be able to mass pushout Meraki MS and Meraki managed Catalyst switch port configurations. A common problem customers have is they are deploying out 200 switches and need to configure each switches port configurations. For the most part all access switches would have  identical configurations along with distribution and core switches having the same configurations. Instead of going through each switch one by one and configuring each port one by one, or having to rely on port profiles or templates which introduce limitations why not create a script and be able to push out port configurations by the thousands in seconds? That is the catalyst for making this program.
+The idea of this program is to be able to mass pushout Meraki MS and Meraki managed Catalyst switch port configurations. A common problem customers have is they are deploying out large quantities of switches and need to configure each switches port configurations. For the most part all access switches would have identical configurations along with distribution and core switches having the same configurations. Instead of going through each switch one by one and configuring each port one by one, or having to rely on port profiles or templates which introduce limitations why not create a script and be able to push out port configurations by the thousands in seconds? That is the catalyst for making this program.
  
 
 
