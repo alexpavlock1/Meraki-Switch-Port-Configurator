@@ -3,12 +3,13 @@
  
 
 Prerequisites
-PIP - https://macpaw.com/how-to/install-pip-mac
+-PIP - https://macpaw.com/how-to/install-pip-mac
 For mac, in terminal run-
 ‘pip3 install meraki’
 (this will install the meraki python library)
-Check your python version and ensure your running python version 3
+-Check your python version and ensure your running python version 3
 python -V or python3 -V. If your not on python version 3 you can download here: https://www.python.org/downloads/mac-osx/ or use homebrew if you have it and run ‘brew install python’
+-This program also relies on the batch_helper python module. This can be found here: https://github.com/TKIPisalegacycipher/Action-Batch-Helper. There is also a commnunity post with a few videos explaining how the module works if interested- https://community.meraki.com/t5/Developers-APIs/New-tool-Action-Batch-Helper/m-p/128033. You will need to download the batch_helper from github and store the file in the same directory you are running this script from. From terminal you can run this command to download: git clone https://github.com/TKIPisalegacycipher/Action-Batch-Helper.git. Once downloaded move the files into the directory with this script.
  
  
  
